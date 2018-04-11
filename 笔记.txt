@@ -42,6 +42,7 @@ set GOARCH=amd64
 set GOOS=linux
 go build
 
+env GOOS=linux GOARCH=amd64  go build
 
 
 set GOOS=linuxset GOARCH=386set CGO_ENABLED=0make.bat
@@ -49,6 +50,13 @@ set GOOS=linuxset GOARCH=386set CGO_ENABLED=0make.bat
 set GOOS=linuxset GOARCH=amd64set CGO_ENABLED=0make.bat
 如果要生成arm6下的运行程序则依次输入下列命令：
 set GOOS=linuxset GOARCH=armset GOARM=6set CGO_ENABLED=0make.bat
+
+
+git add .
+git status
+git commit -m "first page"
+git push origin master 不安全
+
 
 
 
