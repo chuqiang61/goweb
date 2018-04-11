@@ -8,7 +8,7 @@ import (
 )
 
 func reLaunch()  {
-	cmd :=exec.Command("sh","../deploy.sh")
+	cmd :=exec.Command("sh","./deploy.sh")
 	err :=cmd.Start()
 	if err!=nil {
 		log.Fatal(err)
