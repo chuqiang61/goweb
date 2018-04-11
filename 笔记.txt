@@ -1,0 +1,244 @@
+git clone git@github.com:chuqiang61/goweb.git
+go install  编译
+go fmt   代码格式化
+go test
+go get  相当于git  clone  git的包默认从github下载
+
+go env   查看配置
+C:\ruanjain\go\test>go build helloworld.go
+
+C:\imooc_project18.4.11\devOps_go\goweb\webserver> go build main.go  生成exe文件
+go install 失败
+set GOPATH=C:\Users\LENOVO\go
+
+
+set GOARCH=amd64
+set GOBIN=
+set GOCACHE=C:\Users\LENOVO\AppData\Local\go-build
+set GOEXE=.exe
+set GOHOSTARCH=amd64
+set GOHOSTOS=windows
+set GOOS=windows
+set GOPATH=C:\Users\LENOVO\go
+set GORACE=
+set GOROOT=C:\ruanjain\go
+set GOTMPDIR=
+set GOTOOLDIR=C:\ruanjain\go\pkg\tool\windows_amd64
+set GCCGO=gccgo
+set CC=gcc
+set CXX=g++
+set CGO_ENABLED=1
+set CGO_CFLAGS=-g -O2
+set CGO_CPPFLAGS=
+set CGO_CXXFLAGS=-g -O2
+set CGO_FFLAGS=-g -O2
+set CGO_LDFLAGS=-g -O2
+set PKG_CONFIG=pkg-config
+set GOGCCFLAGS=-m64 -mthreads -fno-caret-diagnostics -Qunused-arguments -fmessage-length=0 -fdebug-prefix-map=C:\Users\LENOVO\AppData\Local\Temp\go-build270325298=/tmp/go-build -gno-record-gcc-switches
+
+
+设置linux下执行
+set GOARCH=amd64
+set GOOS=linux
+go build
+
+
+
+set GOOS=linuxset GOARCH=386set CGO_ENABLED=0make.bat
+如果要生成64位linux下的运行程序则依次输入下列命令：
+set GOOS=linuxset GOARCH=amd64set CGO_ENABLED=0make.bat
+如果要生成arm6下的运行程序则依次输入下列命令：
+set GOOS=linuxset GOARCH=armset GOARM=6set CGO_ENABLED=0make.bat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
