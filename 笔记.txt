@@ -57,7 +57,11 @@ git status
 git commit -m "first page"
 git push origin master 不安全
 
+vagrant 虚拟机生成github秘钥位置
+/home/vagrant/.ssh
 
+.Warning: Permanently added the RSA host key for IP address '13.229.188.59' to the list of known hosts. Permission denied (publickey).
+解决方案：在hosts文件中加入 13.229.188.59 github.com
 
 
 
